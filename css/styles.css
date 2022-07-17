@@ -143,7 +143,7 @@ footer {
       align-items: center;
 }
 
-.logotype {
+.logotype-header {
       margin-right: 93px;
       display: block;
       padding-top: 24px;
@@ -251,6 +251,7 @@ footer {
       margin: auto;
       display: block;
       border-radius: 4px;
+      border: transparent;
 
       color: var(--text-white-color);
       background-color: var(--accent-color);
