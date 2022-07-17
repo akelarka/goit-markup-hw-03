@@ -228,6 +228,8 @@ footer {
 }
 
 .main-title {
+      max-width: 696px;
+      width: 100%;
       font-weight: 900;
       font-size: 44px;
       line-height: 1.36;
@@ -238,6 +240,8 @@ footer {
       color: var(--text-white-color);
 
       margin-bottom: var(--card-set-gap);
+      margin-left: auto;
+      margin-right: auto;
 }
 
 .modal-btn {
