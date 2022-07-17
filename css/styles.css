@@ -346,7 +346,12 @@ footer {
 .team-content {
   padding-top: var(--card-set-gap);
   padding-bottom: var(--card-set-gap);
+  background-color: var(--text-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
+
 
 .name-team {
   font-weight: 500;
@@ -366,13 +371,6 @@ footer {
   color: var(--text-grey-color);
 
   margin-top: 10px;
-}
-
-.team-people {
-  background-color: var(--text-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* =================== /TEAM =================== */
