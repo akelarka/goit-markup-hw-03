@@ -20,6 +20,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -36,6 +38,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+address {
+  font-style: normalvv;
 }
 
 button {
@@ -128,10 +134,7 @@ footer {
 
 /* =================== HEADER =================== */
 
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+
 
 .page-nav {
   display: flex;
@@ -197,6 +200,10 @@ footer {
   color: var(--accent-color);
 }
 
+.mail-item {
+  margin-right: 50px;
+}
+
 .contact-mail {
   display: block;
   padding-top: 32px;
@@ -207,8 +214,6 @@ footer {
   letter-spacing: 0.02em;
 
   color: var(--text-grey-color);
-
-  margin-right: 50px;
 }
 
 .contact-mail:hover,
@@ -222,12 +227,12 @@ footer {
 
 .hero {
   background-color: var(--background-dark-color);
-  height: 600px;
+  /* height: 600px; */
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.main-title {
+.hero-title {
   max-width: 696px;
   width: 100%;
   font-weight: 900;
@@ -244,33 +249,30 @@ footer {
   margin-right: auto;
 }
 
-.modal-btn {
+.hero-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
   margin: auto;
   display: block;
   border-radius: 4px;
-  border: transparent;
+  border: none;
 
   color: var(--text-white-color);
   background-color: var(--accent-color);
 
-  /* padding: 7px 21px 7px 21px; */
-  padding-top: 7px;
-  padding-right: 21px;
-  padding-bottom: 7px;
-  padding-left: 21px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
   min-width: 200px;
-  min-height: 50px;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--background-button-color);
 }
 
@@ -341,6 +343,11 @@ footer {
 
 .team {
   background-color: var(--ligt-background-button-color);
+}
+
+.image-team {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-content {
@@ -451,20 +458,17 @@ footer {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  cursor: pointer;
 
   color: var(--text-black-color);
   background-color: var(--ligt-background-button-color);
 
   border-radius: 4px;
-  border: transparent;
+  border: none;
 
-  padding-top: 4px;
+  padding-top: 6px;
   padding-right: 22px;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
   padding-left: 22px;
-  min-width: 145px;
-  min-height: 38px;
 }
 
 .list-menu-button:hover,
@@ -513,6 +517,7 @@ footer {
   padding-bottom: 20px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 /* =================== /PORTFOLIO SECTION =================== */
