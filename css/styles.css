@@ -41,7 +41,7 @@ img {
 }
 
 address {
-  font-style: normalvv;
+  font-style: normal;
 }
 
 button {
@@ -98,6 +98,7 @@ footer {
 .page-header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .logotype {
@@ -439,10 +440,6 @@ footer {
 /* ============================================================================ PORTFOLIO PAGE ============================================================================ */
 
 /* =================== PORTFOLIO SECTION =================== */
-
-.header-portfolio {
-  border-bottom: 1px solid #ececec;
-}
 
 .portfolio-menu-list {
   display: flex;
